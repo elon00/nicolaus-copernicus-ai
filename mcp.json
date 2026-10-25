@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "nicolaus-copernicus-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "COPERNICUS",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "simulate_heliocentric_planetary_order",
+          "description": "Computes solar-centric orbital distances and periods for all classical planets",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "epoch_year": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "epoch_year"
+            ]
+          }
+        },
+        {
+          "name": "resolve_apparent_retrograde_motion",
+          "description": "Calculates parallax projection of planetary retrograde loops from moving Earth reference",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "planet_name": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "planet_name"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

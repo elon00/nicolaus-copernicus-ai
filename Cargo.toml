@@ -1,0 +1,6 @@
+[package]
+name = "nicolaus-copernicus-ai"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
