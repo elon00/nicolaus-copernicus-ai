@@ -1,0 +1,14 @@
+{
+  "project": "nicolaus-copernicus-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "8Q7LbYx1n8gLEJMaSig167kj5kVW5b6t1rnPi8R4tkZ9",
+  "vault_account": "4SRbxoZWmc1x2Vgd8g895Tm8UQpRZMaSudp9UbgeeV2D",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "HZhqdUvZdZLUA2WQcMXmQEY7LE1KQ6HRnqbSX42zV7WZBn4VMKSZgaQSgzY4aGEzRqkAT3DttYcVigwbn2b1wiX",
+  "account_tx": "MBBRmD9D8GVndmX297b6WWjCd62eCs6rqq3fSRsv6CWroeHF3vWFgMdWRpkzdEXjba5xib5ZoYAEu5z2wn8Asqn",
+  "mint_tx": "3A1bE3U27K8hy8eUak2vyZXJkoiRfETch1VxXga1UJHEGiLkQfRBz6ytRYsGZgHJoNnJVMGb4W8CSU5nmX3abUhJ",
+  "solana_explorer_mint": "https://explorer.solana.com/address/8Q7LbYx1n8gLEJMaSig167kj5kVW5b6t1rnPi8R4tkZ9?cluster=devnet",
+  "timestamp": "2026-10-26 16:51:18 UTC"
+}
